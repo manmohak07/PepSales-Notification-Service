@@ -212,7 +212,6 @@ spring.kafka.consumer.value-deserializer=org.apache.kafka.common.serialization.S
    - Watching the Kafka consumer logs to see which messages are processed
    - Querying the H2 database to see saved notifications
 
-In a real-world implementation, the Kafka consumers would handle the actual delivery logic (sending emails, SMS messages, or updating a user interface), making the system highly scalable and resistant to delivery failures.
 
 ## Conclusion
 
